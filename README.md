@@ -44,6 +44,12 @@ visit：localhost:9000
             </activation>
             <properties>
                 <sonar.host.url>http://127.0.0.1:9000/</sonar.host.url>
+                <sonar.login>
+                  admin
+                </sonar.login>
+                <sonar.password>
+                  admin     
+                </sonar.password>  
             </properties>
         </profile>
     </profiles>
