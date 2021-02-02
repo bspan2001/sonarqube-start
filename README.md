@@ -12,6 +12,8 @@ $ cd docker-start
 ### how to use
 ```
 $ docker-compose up -d sonar-docker-start.yml
+查看库数据
+$ docker exec -it 9d86fb0b4808 psql -U sonar
 ```
 visit：localhost:9000
 > username/password：admin/admin
